@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    margin: 0;
+    width: 100%;
+    background-color: rgb(166, 106, 222);
+    display: flex;
+    justify-content: space-between;
+}
+nav h1{
+    color: white;
+    padding: 10px 10px;
+    
+}
+nav ul li{
+    padding: 10px 10px;
+    display: inline-flex;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.formdiv{
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    background: rgb(166, 106, 222);
+    padding: 50px 20px;
+    margin: auto;
+    margin-top: 12%;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+.formdiv h1{
+    color: white;
+}
+input{
+    margin: 2px;
+    padding: 10px;
+    border: none;
+    color: black;
+    margin: 7px;
+}
+.formdiv .btn{
+    padding: 13px 25px;
+    font-size: large;
+    font-weight: 700;
+    background: white;
+    color: rgb(166, 106, 222);
+}
+.formdiv .btn :hover{
+    background: rgb(166, 106, 222);
+    color: white;
+}
